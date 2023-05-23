@@ -1,0 +1,76 @@
+If you have a cell phone, you probably use it dozens of times a day to text people you know. But have you ever gotten a text message from an unknown sender? It could be a scammer trying to steal your personal and financial information. Here’s how to handle and report unwanted text messages.
+Spam Text Messages and Phishing
+ 
+What To Do About Spam Text Messages
+ 
+How To Report Spam Text Messages
+Consumer Alert: Mobile carriers have shut down or are shutting down their 3G networks. If you have an older cell phone, you might not be able to call or text. The FCC has advice about what to do.
+
+Spam Text Messages and Phishing
+Scammers send fake text messages to trick you into giving them your personal information — things like your password, account number, or Social Security number. If they get that information, they could gain access to your email, bank, or other accounts. Or they could sell your information to other scammers.
+
+Scammers often try to get you to click on links in text messages by promising you something. Scammers might
+
+promise free prizes, gift cards, or coupons — but they’re not real
+offer you a low or no interest credit card — but there’s no deal and probably no card
+promise to help you pay off your student loans — but they won’t
+Scammers also send fake messages that say they have information about your account or a transaction. Scammers might
+
+say they’ve noticed some suspicious activity on your account — but they haven’t
+claim there’s a problem with your payment information — but there isn’t
+send you a fake invoice and tell you to contact them if you didn’t authorize the purchase — but it’s a scam
+send you a package delivery notification — but it’s fake
+The messages might ask you to give some personal information — like how much money you make, how much you owe, or your bank account, credit card, or Social Security number — to claim your gift or pursue the offer. Or they might tell you to click on a link to learn more about the issue. Some links might take you to a spoofed website that looks real but isn’t. If you log in, the scammers then might steal your username and password.
+
+Other messages might install harmful malware on your phone that steals your personal or financial information without you realizing it.
+
+Is that text message about your FedEx package really a scam?
+What To Do About Spam Text Messages
+If you get a text message you weren’t expecting and it asks you to give some personal or financial information, don’t click on any links. Legitimate companies won’t ask for information about your account by text.
+
+If you think the message might be real, contact the company using a phone number or website you know is real. Not the information in the text message.
+
+There are many ways to filter unwanted text messages or stop them before they reach you:
+
+On your phone
+
+Your phone may have an option to filter and block spam or messages from unknown senders. Here’s how to filter and block messages on an iPhone and how to block a phone number on an Android phone.
+
+Through your wireless provider
+
+Your wireless provider might have a tool or service that lets you block calls and text messages. Check out ctia.org, a website from the wireless industry, to learn about options from different providers.
+
+With a call-blocking app
+
+Some call-blocking apps also let you block unwanted text messages. Go to ctia.org for a list of call-blocking apps for Android, BlackBerry, Apple, and Windows phones, or search for an app online. Check out the features, user ratings, and expert reviews.
+How To Report Spam Text Messages
+If you get an unwanted text message, there are three ways to report it:
+
+Copy the message and forward it to 7726 (SPAM). This helps your wireless provider spot and block similar messages in the future.
+Report it on the messaging app you use. Look for the option to report junk or spam.
+How to report spam or junk in the Messages app
+How to report spam on an Android phone
+Report it to the FTC at ReportFraud.ftc.gov.
+Search Terms mobile phishing scam text
+Topics Unwanted Calls, Emails, and Texts Unwanted Emails, Texts, and Mail
+Scams All Scams Phishing Scams
+July 2022
+Related Items
+How to Recognize and Avoid Phishing Scams
+How to recognize a fake Geek Squad renewal scam
+Return to top
+CFG: Footer Menu
+Feature Pages
+Articles
+Consumer Alerts
+Videos
+CFG: Footer Menu Right
+Report Fraud
+Get Consumer Alerts
+CFG: Footer
+ftc.gov
+About Us
+Contact Us
+Privacy and Notices
+FOIA
+Office of Inspector General
