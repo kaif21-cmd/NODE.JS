@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Feet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--creating the nav bar-->
+    <nav class="navbar">
+        <div class="left">
+            <h1 style="font-family:cursive">Fashion Feet</h1>
+           
+        </div>
+        <div class="right">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkBtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul class="list">
+              <li style="color:black; text-align:center"><a href="#">Home</a></li>
+              <li style="color:black; text-align:center"><a href="#">JORDAN NIKE</a></li>
+              <li style="color:black; text-align:center"><a href="#">SNEAKERS</a></li>
+              <li style="color:black; text-align:center"><a href="#">BOOT</a></li>
+              <li style="color:black; text-align:center"><a href="#">DERBY</a></li>
+              <li style="color:black; text-align:center"><a href="#">LOAFER</a></li>
+              <li style="color:black; text-align:center"><a href="#">SANDALS</a></li>
+              <li style="color:black; text-align:center"><a href="#">SLIPPERS</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="slides">
+          <img src="shoes1.jpg" width="100%" height="900">
+          <img src="shoes4.jpg" width="100%" height="900">
+          <img src="shoes3.png" width="100%" height="900">
+        </div>
+      </div>
+      <div class="section">
+        <style>
+            .card {
+                margin-left:30%;
+                border: 1px solid #ccc;
+                box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+                margin: 25px;
+                padding: 25px;
+                max-width: 420px;
+                margin: 10px;
+                height:fit-content;
+                
+            }
+            .card img {
+                width: 100%;
+                display: block;
+                margin-bottom: 10px;
+                height: 200px;
+            }
+            .card h2 {
+                font-size: 1.2em;
+                margin: 0 0 10px 0;
+            }
+            .card p {
+                margin: 0;
+            }
+            .card .price {
+                font-weight: bold;
+                color:darkblue;
+                display:flex;
+                margin: 10px 0;
+            }
+    
+            /* Responsive design */
+            @media only screen and (min-width: 650px) {
+                .card {
+                    max-width: 430px;
+                    vertical-align: top;
+                    margin:25px 25px 15px;
+                    margin-left:30px; 
+                }
+            }
+    
+            @media only screen and (min-width: 730px) {
+                .card {
+                    display: inline-block;
+                    max-width: 400px;
+                    vertical-align: top;
+                    margin:25px 25px 15px;
+                    margin-left:30px;
+                }
+            }
+        </style>
+        <div class="card">
+          <a href="shoes4.png">
+            <img src="shoes4.png">
+          </a>
+            <h2>Nike Air 715-DA</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis quas eveniet, sit mollitia, dicta alias numquam animi dolores amet fugit sunt optio rem aut vel inventore natus eaque praesentium.</p>
+            <p class="price"> PRICE:5K <br>Size: 6-11UK<br> Available :In stock</p>
+           
+            <button style="background-color:RGB(92, 181, 92);
+            display:flex; padding: 8px 15px; font-size: 15px;"><a href="https://wa.me/9648338838"
+              target="_blank" style="text-decoration:none;">
+              <i class="fab fa-whatsapp"></i> Order Now 
+            </a></button>
+            
+        </div>
+    
+        <div class="card">
+          <a href="shoes1.jpg">
+            <img src="shoes1.jpg">
+          </a>
+            <h2>Nike Jordan 227-VA</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis quas eveniet, sit mollitia, dicta alias numquam animi dolores amet fugit sunt optio rem aut vel inventore natus eaque praesentium.</p>
+            <p class="price"> PRICE:8K <br>Size: 7-11UK<br> Available :In stock</p>
+           
+            <button style="background-color:RGB(92, 181, 92);
+            display:flex; padding: 8px 15px; font-size: 15px; text-decoration:none;"><a href="https://wa.me/9648338838"
+              target="_blank" style="text-decoration:none;">
+              <i class="fab fa-whatsapp"></i> Order Now 
+            </a></button>
+        </div>
+        <div class="card">
+          <a href="shoes2.jpg">
+            <img src="shoes2.jpg">
+          </a>
+            <h2>Blacky 315-ZL</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis quas eveniet, sit mollitia, dicta alias numquam animi dolores amet fugit sunt optio rem aut vel inventore natus eaque praesentium.</p>
+            <p class="price"> PRICE:5K <br>Size: 6-11UK<br> Available :In stock</p>
+            <button style="background-color:RGB(92, 181, 92);
+            display:flex; padding: 8px 15px; font-size: 15px;"><a href="https://wa.me/9648338838"
+              target="_blank" style="text-decoration:none;">
+              <i class="fab fa-whatsapp"></i> Order Now 
+            </a></button>
+        </div>
+        <div class="card">
+            <a href="shoes6.jpg">
+                <img src="shoes6.jpg">
+              </a>
+            <h2>Woodland Gold 319 B</h2>
+            <p>This beautiful necklace is made of 14k gold and features a delicate design with a diamond accent.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis quas eveniet, sit mollitia, dicta alias numquam animi dolores amet fugit sunt optio rem aut vel inventore natus eaque praesentium.</p>
+            <p class="price"> PRICE:5K <br>Size: 9-13UK<br> Available :In stock</p>
+            <button style="background-color:RGB(92, 181, 92);
+            display:flex; padding: 8px 15px; font-size: 15px;"><a href="https://wa.me/9648338838"
+              target="_blank" style="text-decoration:none;">
+              <i class="fab fa-whatsapp"></i> Order Now 
+            </a></button>
+        </div>
+    
+        <div class="card">
+          <a href="shoes7.jpg">
+            <img src="shoes7.jpg">
+          </a>
+            <h2>BOOT Rider S1</h2>
+            <p>This beautiful necklace is made of 14k gold and features a delicate design with a diamond accent.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis quas eveniet, sit mollitia, dicta alias numquam animi dolores amet fugit sunt optio rem aut vel inventore natus eaque praesentium.</p>
+            <p class="price"> PRICE:5K <br>Size: 9-13UK<br> Available :In stock</p>
+            <button style="background-color:RGB(92, 181, 92);
+            display:flex; padding: 8px 15px; font-size: 15px;"><a href="https://wa.me/9648338838"
+              target="_blank" style="text-decoration:none;">
+              <i class="fab fa-whatsapp"></i> Order Now 
+            </a></button>
+        </div>
+        <div class="card">
+          <a href="shoes9.jpg">
+            <img src="shoes9.jpg">
+          </a>
+            <h2>Silver Bracelet</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis quas eveniet, sit mollitia, dicta alias numquam animi dolores amet fugit sunt optio rem aut vel inventore natus eaque praesentium.</p>
+            <p class="price"> PRICE:5K <br>Size: 6-13UK<br> Available :In stock</p>
+            <button style="background-color:RGB(92, 181, 92);
+            display:flex; padding: 8px 15px; font-size: 15px;"><a href="https://wa.me/9648338838"
+              target="_blank" style="text-decoration:none;">
+              <i class="fab fa-whatsapp"></i> Order Now 
+            </a></button>
+        </div>
+        <div class="card">
+            <a href="shoes3.png">
+              <img src="shoes3.png">
+            </a>
+              <h2>Socks Velvet 316 W</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis quas eveniet, sit mollitia, dicta alias numquam animi dolores amet fugit sunt optio rem aut vel inventore natus eaque praesentium.</p>
+              <p class="price"> PRICE:5K <br>Size: 6-13UK<br> Available :In stock</p>
+              <button style="background-color:RGB(92, 181, 92);
+              display:flex; padding: 8px 15px; font-size: 15px;"><a href="https://wa.me/9648338838"
+                target="_blank" style="text-decoration:none;">
+                <i class="fab fa-whatsapp"></i> Order Now 
+              </a></button>
+          </div>
+          <div class="card">
+            <a href="shoes5.jpg">
+              <img src="shoes5.jpg">
+            </a>
+              <h2>Whity Boot 615 P</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis quas eveniet, sit mollitia, dicta alias numquam animi dolores amet fugit sunt optio rem aut vel inventore natus eaque praesentium.</p>
+              <p class="price"> PRICE:5K <br>Size: 9-13UK<br> Available :In stock</p>
+              <button style="background-color:RGB(92, 181, 92);
+              display:flex; padding: 8px 15px; font-size: 15px;"><a href="https://wa.me/9648338838"
+                target="_blank" style="text-decoration:none;">
+                <i class="fab fa-whatsapp"></i> Order Now 
+              </a></button>
+          </div>
+          <div class="card">
+            <a href="shoes8.webp">
+              <img src="shoes8.webp">
+            </a>
+              <h2>Long Brown 561 Q</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis quas eveniet, sit mollitia, dicta alias numquam animi dolores amet fugit sunt optio rem aut vel inventore natus eaque praesentium.</p>
+              <p class="price"> PRICE:5K <br>Size: 7-13UK<br> Available :In stock</p>
+              <button style="background-color:RGB(92, 181, 92);
+              display:flex; padding: 8px 15px; font-size: 15px;"><a href="https://wa.me/9648338838"
+                target="_blank" style="text-decoration:none;">
+                <i class="fab fa-whatsapp"></i> Order Now 
+              </a></button>
+          </div>
+      </div>
+      <div class="footer-container">
+      <div style="background-color:RGB(92, 181, 92)" class="section2">
+        <div class="1para">
+            <h1 style="font-size:20px;  text-align:center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Free Shiping</h1><br>
+            <p style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Free Shiping on Shoping Worth RS.<b>4K</b> or aboveThanks </p><br><hr>
+        </div>
+        <div class="2para">
+            <h1 style="font-size:15px;font-size:20px;  text-align:center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Easy return</h1><br>
+            <p style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Simply Inform us  Within 48 hours and well pick  it up from your place</p><br><hr>
+        </div>
+        <div class="2para">
+            <h1 style="font-size:15px;font-size:20px;  text-align:center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Dedication Support</h1><br>
+            <p style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Call us at 9648338838 (11 am to 6pm ) or drop an  Email at kaifshaikh262000@gmail.com</p><br><hr>
+        </div>
+      </div>
+     
+        <footer style="background-color:RGB(92, 181, 92)">
+            <div  class="container">
+              <div  class="row">
+                <div class="kaif">
+                  <h3 style="font-size:20px;  text-align:center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Contact Us</h3>
+                  <p style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"r">Email: kaifshaikh262000@gmail.com</p>
+                  <p style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"">Phone: (+91) 9648338838</p>
+                  <p style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"">Address: 40 futa Saheen Bagh Street, Delhi, State 11025</p>
+                </div>
+                <div  class="kaif">
+                  <hr>
+                  <br>
+                  <h3 style=" font-size:20px;color:black">Navigation</h3>
+        
+                  <ul>
+                    <li style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><a href="#">Home</a></li>
+                    <li style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><a href="#">JORDAN NIKE</a></li>
+                    <li style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><a href="#">SNEAKERS</a></li>
+                    <li style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><a href="#">BOOT</a></li>
+                    <li style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><a href="#">DERBY</a></li>
+                    <li style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><a href="#">LOAFER</a></li>
+                    <li style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><a href="mailto:kaifshaikh262000@example.com">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="kaif">
+                  <hr>
+                  <h3 style="font-size:20px; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Connect with Us</h3>
+        
+                  <ul>
+                    <li style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><a href="https://www.linkedin.com/in/kaif-siddique-532498213/">Linkdln</a></li>
+                    <li style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><a href="https://www.instagram.com/kaifshaikhsiddiqui/?igshid=ZDdkNTZiNTM%3D">Instagram</a></li>
+                    <li style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><a href="https://twitter.com/?lang=en-in">Twitter</a></li>
+                    <li style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><a href="https://in.pinterest.com/">Pinterest</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <hr>
+                  <br>
+                  <p style="font-size:medium; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"> 2023 JEWLERY Website. All Rights Reserved.<br>
+                    <br> &copy; Designed by @kaifshaikhsiddiqui <br> <br> <button
+                      style="background-color:yellow;; padding: 8px 15px; font-size: 15px;"><a
+                        href="mailto:kaifshaikh262000@example.com" target="_blank">
+                        <i class="fab fa-mail"></i> Mail us
+                      </a></button>
+                  </p>
+                </div>
+              </div>
+            </div>
+      </footer>
+      <script src="index.js"></script>
+
+</body>
+</html>

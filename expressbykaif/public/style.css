@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:rgb(38, 36, 36);
+}
+.navbar{
+    background-color:RGB(92, 181, 92);
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    line-height: 5rem;
+}
+.left h1{
+    font-size:1.5rem;
+    cursor:pointer;
+}
+.checkBtn{
+    display: none;
+}
+#check{
+    display: none;
+}
+.checkBtn {
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    color: #ed1e79;
+    line-height: 80px;
+}
+.right ul{
+    display: flex;
+    list-style: none;
+}
+.right ul li a{
+    padding: 10px 20px;
+    font-size:1.2rem;
+    color:black;
+    text-decoration: none;
+    transition:all 1s;
+}
+.right ul li a:hover{
+    background-color:rgb(18, 17, 17);
+    color:bisque;
+}
+@media screen and (max-width:805px){
+    .list{
+        width:100%;
+        height:100vh;
+        background-color:RGB(92, 181, 92);
+        text-align: center;
+        display:flex;
+        flex-direction:column;
+        position:fixed;
+        top:4rem;
+        left:100%;
+        transition:all 1s;
+    }
+#check{
+    display:none;
+}
+.checkBtn{
+    display:block;
+}
+#check:checked~ul{
+    left:0;
+}
+
+}
+.slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    width: 300%;
+  }
+  
+  .slides img {
+    width: calc(100% / 3);
+    height: 500px;
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .slides {
+      width: 200%;
+      transform: translateX(-50%);
+    }
+  
+    .slides img {
+      width: calc(100% / 2);
+      height: 300px;
+    }
+  }
+  
+  /* Media query for even smaller screens */
+  @media only screen and (max-width: 480px) {
+    .slides {
+      width: 100%;
+      transform: none;
+    }
+  
+    .slides img {
+      width: 100%;
+      height: 200px;
+    }
+  }
+  
+.section{
+  justify-content: center;
+  justify-content: space-between;
+
+}
+.section2{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+footer {
+  padding: 40px 0;
+  color: #333;
+  font-size: 14px;
+  color:black;
+}
+
+footer h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color:black;
+  text-decoration: none;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.row {
+  margin-top: 15px;
+}
+
